@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+/*JUMBOTRON*/
+
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	padding: 42vh 0 0 0;
+	text-align: center;
+	background-image: url(https://images.pexels.com/photos/194927/pexels-photo-194927.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.jumbotron h1 {
+	margin: 0;
+	font-size: 38px;
+	font-weight: 500;
+	color: white;
+	font-family: "Catamaran";
+}
+
+.jumbotron button {
+	margin: 20px 0 0 0;
+	padding: 15px 40px;
+	background-color: #102D22;
+	font-size: 20px;
+	color: white;
+	font-family: "Quicksand";
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.jumbotron button:hover {
+	background-color: #1B503C;
+}
+
+/*GALLERY*/
+
+* {
+	box-sizing: border-box;
+}
+
+.gallery img {
+	float: left;
+	width: 25%;
+	object-fit: cover;
+	height: auto;
+}
+
+.gallery img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
